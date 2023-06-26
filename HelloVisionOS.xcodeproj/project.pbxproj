@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6242D722A49D5F600BB2A0A /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = D6242D712A49D5F600BB2A0A /* RealityKitContent */; };
+		D6242D742A49D5F600BB2A0A /* HelloVisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6242D732A49D5F600BB2A0A /* HelloVisionOSApp.swift */; };
+		D6242D762A49D5F600BB2A0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6242D752A49D5F600BB2A0A /* ContentView.swift */; };
+		D6242D782A49D5F900BB2A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6242D772A49D5F900BB2A0A /* Assets.xcassets */; };
+		D6242D7B2A49D5F900BB2A0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6242D7A2A49D5F900BB2A0A /* Preview Assets.xcassets */; };
+		D6242D852A49D5FA00BB2A0A /* HelloVisionOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6242D842A49D5FA00BB2A0A /* HelloVisionOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6242D812A49D5FA00BB2A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6242D642A49D5F500BB2A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6242D6B2A49D5F600BB2A0A;
+			remoteInfo = HelloVisionOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6242D6C2A49D5F600BB2A0A /* HelloVisionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloVisionOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6242D702A49D5F600BB2A0A /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		D6242D732A49D5F600BB2A0A /* HelloVisionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVisionOSApp.swift; sourceTree = "<group>"; };
+		D6242D752A49D5F600BB2A0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6242D772A49D5F900BB2A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6242D7A2A49D5F900BB2A0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6242D802A49D5FA00BB2A0A /* HelloVisionOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloVisionOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6242D842A49D5FA00BB2A0A /* HelloVisionOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVisionOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6242D692A49D5F600BB2A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6242D722A49D5F600BB2A0A /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6242D7D2A49D5FA00BB2A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6242D632A49D5F500BB2A0A = {
+			isa = PBXGroup;
+			children = (
+				D6242D6E2A49D5F600BB2A0A /* HelloVisionOS */,
+				D6242D6F2A49D5F600BB2A0A /* Packages */,
+				D6242D832A49D5FA00BB2A0A /* HelloVisionOSTests */,
+				D6242D6D2A49D5F600BB2A0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6242D6D2A49D5F600BB2A0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6242D6C2A49D5F600BB2A0A /* HelloVisionOS.app */,
+				D6242D802A49D5FA00BB2A0A /* HelloVisionOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6242D6E2A49D5F600BB2A0A /* HelloVisionOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6242D732A49D5F600BB2A0A /* HelloVisionOSApp.swift */,
+				D6242D752A49D5F600BB2A0A /* ContentView.swift */,
+				D6242D772A49D5F900BB2A0A /* Assets.xcassets */,
+				D6242D792A49D5F900BB2A0A /* Preview Content */,
+			);
+			path = HelloVisionOS;
+			sourceTree = "<group>";
+		};
+		D6242D6F2A49D5F600BB2A0A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D6242D702A49D5F600BB2A0A /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		D6242D792A49D5F900BB2A0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6242D7A2A49D5F900BB2A0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6242D832A49D5FA00BB2A0A /* HelloVisionOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6242D842A49D5FA00BB2A0A /* HelloVisionOSTests.swift */,
+			);
+			path = HelloVisionOSTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6242D6B2A49D5F600BB2A0A /* HelloVisionOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6242D882A49D5FA00BB2A0A /* Build configuration list for PBXNativeTarget "HelloVisionOS" */;
+			buildPhases = (
+				D6242D682A49D5F600BB2A0A /* Sources */,
+				D6242D692A49D5F600BB2A0A /* Frameworks */,
+				D6242D6A2A49D5F600BB2A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloVisionOS;
+			packageProductDependencies = (
+				D6242D712A49D5F600BB2A0A /* RealityKitContent */,
+			);
+			productName = HelloVisionOS;
+			productReference = D6242D6C2A49D5F600BB2A0A /* HelloVisionOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6242D7F2A49D5FA00BB2A0A /* HelloVisionOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6242D8B2A49D5FA00BB2A0A /* Build configuration list for PBXNativeTarget "HelloVisionOSTests" */;
+			buildPhases = (
+				D6242D7C2A49D5FA00BB2A0A /* Sources */,
+				D6242D7D2A49D5FA00BB2A0A /* Frameworks */,
+				D6242D7E2A49D5FA00BB2A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6242D822A49D5FA00BB2A0A /* PBXTargetDependency */,
+			);
+			name = HelloVisionOSTests;
+			productName = HelloVisionOSTests;
+			productReference = D6242D802A49D5FA00BB2A0A /* HelloVisionOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6242D642A49D5F500BB2A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D6242D6B2A49D5F600BB2A0A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					D6242D7F2A49D5FA00BB2A0A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D6242D6B2A49D5F600BB2A0A;
+					};
+				};
+			};
+			buildConfigurationList = D6242D672A49D5F500BB2A0A /* Build configuration list for PBXProject "HelloVisionOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6242D632A49D5F500BB2A0A;
+			productRefGroup = D6242D6D2A49D5F600BB2A0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6242D6B2A49D5F600BB2A0A /* HelloVisionOS */,
+				D6242D7F2A49D5FA00BB2A0A /* HelloVisionOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6242D6A2A49D5F600BB2A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6242D7B2A49D5F900BB2A0A /* Preview Assets.xcassets in Resources */,
+				D6242D782A49D5F900BB2A0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6242D7E2A49D5FA00BB2A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6242D682A49D5F600BB2A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6242D762A49D5F600BB2A0A /* ContentView.swift in Sources */,
+				D6242D742A49D5F600BB2A0A /* HelloVisionOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6242D7C2A49D5FA00BB2A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6242D852A49D5FA00BB2A0A /* HelloVisionOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6242D822A49D5FA00BB2A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6242D6B2A49D5F600BB2A0A /* HelloVisionOS */;
+			targetProxy = D6242D812A49D5FA00BB2A0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6242D862A49D5FA00BB2A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		D6242D872A49D5FA00BB2A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		D6242D892A49D5FA00BB2A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloVisionOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.HelloVisionOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		D6242D8A2A49D5FA00BB2A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloVisionOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.HelloVisionOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		D6242D8C2A49D5FA00BB2A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.HelloVisionOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloVisionOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloVisionOS";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		D6242D8D2A49D5FA00BB2A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.HelloVisionOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloVisionOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloVisionOS";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6242D672A49D5F500BB2A0A /* Build configuration list for PBXProject "HelloVisionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6242D862A49D5FA00BB2A0A /* Debug */,
+				D6242D872A49D5FA00BB2A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6242D882A49D5FA00BB2A0A /* Build configuration list for PBXNativeTarget "HelloVisionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6242D892A49D5FA00BB2A0A /* Debug */,
+				D6242D8A2A49D5FA00BB2A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6242D8B2A49D5FA00BB2A0A /* Build configuration list for PBXNativeTarget "HelloVisionOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6242D8C2A49D5FA00BB2A0A /* Debug */,
+				D6242D8D2A49D5FA00BB2A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D6242D712A49D5F600BB2A0A /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D6242D642A49D5F500BB2A0A /* Project object */;
+}
